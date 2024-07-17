@@ -6,6 +6,15 @@ h1 {
     text-align: center;
     text size: 50px;
 }
+
+img.icon {
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 1px 1px;
+    box-shadow: 0 5px #999;
+    margin-right: 10px;
+}
 .introduction {
     background-color: black;
 }
@@ -22,6 +31,7 @@ h1 {
 
 .category {
     display: inline-block;
+    align-items: center;
     height: 50px;
     width: 50px;
     maright-right: 5px;
