@@ -1,0 +1,25 @@
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.category {
+    height: 200px;
+    width: 100px;
+    maright-right: 5px;
+}
+.expand-section {
+    display: none;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+}
+.expand-section.active {
+    display: block;
+    max-height: 300px; /* Adjust as needed */
+}
